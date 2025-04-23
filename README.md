@@ -1,73 +1,55 @@
-# Welcome to your Lovable project
+# Accessibility Web Analyzer
 
-## Project info
+A web-based tool that helps developers and content creators identify and fix accessibility issues in their web content.
 
-**URL**: https://lovable.dev/projects/d0b5eef0-a686-457c-87d9-55db1e9bfb59
+## Features
 
-## How can I edit this code?
+- **URL Analysis**: Analyze any website by entering its URL
+- **HTML Code Analysis**: Paste HTML code directly for analysis
+- **File Upload**: Upload HTML files for accessibility checking
+- **Comprehensive Reports**: Get detailed reports on accessibility issues
+- **Visual Charts**: View issue distribution and severity through charts
+- **Export Options**: Download reports in PDF and CSV formats
+- **Real-time Preview**: See the analyzed page with highlighted issues
+- **Accessibility Score**: Get an overall accessibility score for your content
 
-There are several ways of editing your application.
+## Getting Started
 
-**Use Lovable**
+1. Clone the repository:
+```bash
+git clone https://github.com/raju8309/accessibility-analyzer-.git
+```
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/d0b5eef0-a686-457c-87d9-55db1e9bfb59) and start prompting.
+2. Install dependencies:
+```bash
+cd accessibility-analyzer-
+npm install
+```
 
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+3. Start the development server:
+```bash
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+4. Open http://localhost:8080 in your browser
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## Tech Stack
 
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
 - React
-- shadcn-ui
+- TypeScript
+- Vite
 - Tailwind CSS
+- Chart.js
+- Recharts
 
-## How can I deploy this project?
+## Contributing
 
-Simply open [Lovable](https://lovable.dev/projects/d0b5eef0-a686-457c-87d9-55db1e9bfb59) and click on Share -> Publish.
+Feel free to open issues and submit pull requests to contribute to this project.
 
-## Can I connect a custom domain to my Lovable project?
+## License
 
-Yes, you can!
+MIT License - feel free to use this project for your own purposes.
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+## Contact
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+- GitHub: [@raju8309](https://github.com/raju8309)
